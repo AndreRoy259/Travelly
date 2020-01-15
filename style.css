@@ -133,10 +133,10 @@ nav ul {
 
 .locations-head h3 {
   padding: 4rem 0rem;
-  /*! Ne marche pas sur Chrome
   background: linear-gradient(#131c27, #663b34);
   background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .cloud {
