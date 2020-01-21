@@ -28,87 +28,95 @@
         </ul>
       </nav>
     </header>
-    <section class="hero">
-      <h2>Voyagez au-delà des limites.</h2>
-      <h3>
-        Commencez votre voyage à un prix abordable avec VoyaJay<br />
-        Contactez-nous maintenant.
-      </h3>
-      <button>Reservez votre rêve</button>
-    </section>
-    <section id="locations">
-      <header class="locations-head">
-        <h2>L'expérience de voyage parfaite.</h2>
+    <main>
+      <section class="hero">
+        <h2>Voyagez au-delà des limites.</h2>
         <h3>
-          Nous couvrons tout, de la sélection de l'hôtel<br />à la réservation
-          du vol.
+          Commencez votre voyage à un prix abordable avec VoyaJay<br />
+          Contactez-nous maintenant.
         </h3>
-        <img src="./img/cloud.png" class="moving-cloud-1 cloud" />
-        <img src="./img/cloud.png" class="moving-cloud-2 cloud" />
-      </header>
-    </section>
-    <section id="benefits">
-      <header class="benefits-head">
-        <h2>Le voyage parfait</h2>
-        <h3>
-          Nous couvrons tout pour choisir l'hôtel parfaite, <br />
-          le vol et la destination du voyage.
-        </h3>
-      </header>
-      <div class="cards">
-        <div class="card">
-          <div class="card-icon">
-            <img src="./icons/route-solid.svg" alt="" />
-          </div>
-          <h4>Voyage</h4>
-          <p>Voyagez dans plus de 250 pays sans effort.</p>
-        </div>
-        <div class="card">
-          <div class="card-icon">
-            <img src="./icons/bed-solid.svg" alt="" />
-          </div>
-          <h4>Hôtel</h4>
-          <p>Hôtels situés à proximité des quartiers populaires.</p>
-        </div>
-        <div class="card">
-          <div class="card-icon">
-            <img src="./icons/plane-departure-solid.svg" alt="" />
-          </div>
-          <h4>Vol</h4>
-          <p>Vol inclus dans chaque voyage acheté.</p>
-        </div>
-      </div>
-    </section>
-    <section id="contact">
-      <div class="form-wrapper">
-        <header class="form-header">
-          <h2>Nous contacter</h2>
+        <button>Reservez votre rêve</button>
+      </section>
+      <section id="locations">
+        <header class="locations-head">
+          <h2>L'expérience de voyage parfaite.</h2>
+          <h3>
+            Nous couvrons tout, de la sélection de l'hôtel<br />à la réservation
+            du vol.
+          </h3>
+          <img src="./img/cloud.png" class="moving-cloud-1 cloud" alt="" />
+          <img src="./img/cloud.png" class="moving-cloud-2 cloud" alt="" />
         </header>
-        <form action="https://formspree.io/xayeaybw" method="POST">
-          <div class="name-form">
-            <label for="name">Nom:</label>
-            <input type="text" name="name" required />
+      </section>
+      <section id="benefits">
+        <header class="benefits-head">
+          <h2>Le voyage parfait</h2>
+          <h3>
+            Nous couvrons tout pour choisir l'hôtel parfaite, <br />
+            le vol et la destination du voyage.
+          </h3>
+        </header>
+        <div class="cards">
+          <div class="card">
+            <div class="card-icon">
+              <img src="./icons/route-solid.svg" alt="" />
+            </div>
+            <h4>Voyage</h4>
+            <p>Voyagez dans plus de 250 pays sans effort.</p>
           </div>
-          <div class="email-form">
-            <label for="email">Courriel:</label>
-            <input type="email" name="_replyto" required />
+          <div class="card">
+            <div class="card-icon">
+              <img src="./icons/bed-solid.svg" alt="" />
+            </div>
+            <h4>Hôtel</h4>
+            <p>Hôtels situés à proximité des quartiers populaires.</p>
           </div>
-          <button type="submit" value="Send">Envoyer</button>
-        </form>
-      </div>
-    </section>
+          <div class="card">
+            <div class="card-icon">
+              <img src="./icons/plane-departure-solid.svg" alt="" />
+            </div>
+            <h4>Vol</h4>
+            <p>Vol inclus dans chaque voyage acheté.</p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="form-wrapper">
+          <header class="form-header">
+            <h2>Nous contacter</h2>
+          </header>
+          <form action="https://formspree.io/xayeaybw" method="POST">
+            <div class="name-form">
+              <label for="name">Nom:</label>
+              <input id="name" type="text" name="name" required />
+            </div>
+            <div class="email-form">
+              <label for="email">Courriel:</label>
+              <input id="email" type="email" name="_replyto" required />
+            </div>
+            <button type="submit" value="Send">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </main>
     <footer>
       <div class="footer-wrapper">
         <h5>VoyaJay &copy;</h5>
         <ul>
           <li>
-            <a href="#"><img src="./icons/twitter.svg" alt=""/></a>
+            <a href="#" title="twitter-social-media"
+              ><img src="./icons/twitter.svg" alt="twitter-social-media"
+            /></a>
           </li>
           <li>
-            <a href="#"><img src="./icons/youtube.svg" alt=""/></a>
+            <a href="#" title="youtube-social-media"
+              ><img src="./icons/youtube.svg" alt="youtube-social-media"
+            /></a>
           </li>
           <li>
-            <a href="#"><img src="./icons/instagram.svg" alt=""/></a>
+            <a href="#" title="instagram-social-media"
+              ><img src="./icons/instagram.svg" alt="instagram-social-media"
+            /></a>
           </li>
         </ul>
       </div>
